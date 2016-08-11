@@ -1,12 +1,11 @@
 body {
-	background:skyblue;
+	background:#fff;
 }
 
 .main_wrapper {
 	width:1000px;
 	height:auto;
 	margin:auto;
-	border: 1px solid red;
 }
 
 header {
@@ -14,7 +13,6 @@ header {
 	height:150px;
 	margin:auto;
 	background: #83CBA6;
-	border: 1px solid red;
 }
 
 #logo {
@@ -23,25 +21,58 @@ header {
 #banner {
 	float:right;
 }
+nav {
+	width:1000px;
+	height:50px;
+	background: #AAA9A8;
+	color:white;
+	text-align: center;
+}
+
+#menu {
+	padding:0;
+	margin:0;
+	line-height: 45px;
+}
+
+#menu li {
+	list-style: none;
+	display: inline;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	padding:8px;
+	margin:5px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+
+#menu a:hover {
+	color:#83CBA6;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
 .content-wrapper {
 	width:1000px;
 	height: 800px;
 	background: #EFE9C5;
 	float:right;
-	border:1px solid red;
 }
+
 main {
 	width:1000px;
 	height: 800px;
 	background: #EFE9C5;
-	/*float:right;*/
-	border:1px solid red;
 }
 
 aside {
 	width:200px;
 	height: 800px;
-	background: #7D7D7D;
+	background: #EC564F;
+	color:#fff;
 	float:left;
 }
 
