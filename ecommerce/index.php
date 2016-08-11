@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Online Shop</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -29,6 +30,17 @@
 				<li></li> <a href="#">Shopping Cart</a>
 				<li></li> <a href="#">Contact Us</a>
 			</ul>
+
+			<div id="search">
+				
+				<form action="results.php" method="get" enctype="multipart/form-data">
+					
+					<input type="text" name="user-query" placeholder="Search a product">
+					<button type="submit" name="search" value="Search">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					</button>
+				</form>
+			</div>
 		</nav>
 		<!-- Navigation bar ends here -->
 		

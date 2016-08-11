@@ -26,13 +26,13 @@ nav {
 	height:50px;
 	background: #AAA9A8;
 	color:white;
-	text-align: center;
 }
 
 #menu {
 	padding:0;
 	margin:0;
 	line-height: 45px;
+	float:left;
 }
 
 #menu li {
@@ -53,6 +53,12 @@ nav {
 	color:#83CBA6;
 	font-weight: bolder;
 	text-decoration: underline;
+}
+
+#search {
+	float:right;
+	padding-right: 8px;
+	line-height: 50px;
 }
 
 .content-wrapper {
