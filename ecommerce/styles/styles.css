@@ -1,3 +1,53 @@
 body {
 	background:skyblue;
 }
+
+.main_wrapper {
+	width:1000px;
+	height:auto;
+	margin:auto;
+	border: 1px solid red;
+}
+
+header {
+	width:1000px;
+	height:150px;
+	margin:auto;
+	background: #83CBA6;
+	border: 1px solid red;
+}
+
+#logo {
+	float:left;
+}
+#banner {
+	float:right;
+}
+.content-wrapper {
+	width:1000px;
+	height: 800px;
+	background: #EFE9C5;
+	float:right;
+	border:1px solid red;
+}
+main {
+	width:1000px;
+	height: 800px;
+	background: #EFE9C5;
+	/*float:right;*/
+	border:1px solid red;
+}
+
+aside {
+	width:200px;
+	height: 800px;
+	background: #7D7D7D;
+	float:left;
+}
+
+footer {
+	width: 1000px;
+	height:100px;
+	background: #83CBA6;
+	clear:both;
+}
