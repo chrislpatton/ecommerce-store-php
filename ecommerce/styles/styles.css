@@ -1,5 +1,5 @@
 body {
-	background:#fff;
+	background:#c9c9c9;
 }
 
 .main_wrapper {
@@ -18,9 +18,11 @@ header {
 #logo {
 	float:left;
 }
+
 #banner {
 	float:right;
 }
+
 nav {
 	width:1000px;
 	height:50px;
@@ -80,6 +82,41 @@ aside {
 	background: #EC564F;
 	color:#fff;
 	float:left;
+}
+
+.sidebar-title {
+	background:#fff;
+	color:#000;
+	font-size: 22px;
+	font-family: COMIC SANS MS;
+	font-weight: bolder;
+	padding:10px;
+	text-align: center;
+}
+
+.categories {
+	text-align: center;
+}
+
+.categories li {
+	list-style: none;
+	margin: 5px;
+	padding: 8px;
+	
+}
+
+.categories a {
+	color:#000;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+}
+
+.categories a:hover{
+	color:#fff;
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 footer {

@@ -48,7 +48,27 @@
 		<div class="content-wrapper">
 			
 			<aside>
-				This is the sidebar
+
+				<div class="sidebar-title">Categories</div>
+				<ul class="categories">
+					
+					<li><a href="">Laptops</a></li>
+					<li><a href="">Desktops</a></li>
+					<li><a href="">Tablets</a></li>
+					<li><a href="">Smart Phones</a></li>
+					<li><a href="">Accessories</a></li>
+
+				</ul>
+
+				<div class="sidebar-title">Brands</div>
+				<ul class="categories">
+					<li><a href="">Apple</a></li>
+					<li><a href="">Samsung</a></li>
+					<li><a href="">Microsoft</a></li>
+					<li><a href="">Dell</a></li>
+					<li><a href="">HP</a></li>
+
+				</ul>
 			</aside>
 			
 			<main>
